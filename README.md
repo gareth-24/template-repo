@@ -63,18 +63,18 @@ $ npm run start     <!--build the project and serve it with a web server-->
 * _If you add other dependencies, make sure to update the 'devDependencies' and 'scripts' sections within the 'package.json' file._
 * _To install other specific package versions, use the code:_
 
-'''
+```
 $ npm install [PACKAGE-NAME]
-
 <!--for example:-->
 $ npm install webpack@4.46.0 --save-dev 
 $ npm install webpack-cli@3.3.12 --save-dev
 $ npm install jest@24.9.0 --save-dev
 $ npm install @babel/core@7.18.6 --save-dev
 $ npm install @babel/plugin-transform-modules-commonjs@7.18.6 --save-dev
-'''
+```
+
 * _List of useful npm script terminal commands:_
-'''
+```
 $ npm install
 $ npm uninstall
 $ npm init -y
@@ -82,7 +82,7 @@ $ npm run build
 $ npm run start
 $ npm run lint
 $ npm run test
-'''
+```
 
 
 ## Known Bugs
