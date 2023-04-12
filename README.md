@@ -19,7 +19,7 @@
 
 ## Description
 
-_This is an template for a basic project repository with instructions on how to install node webpackages, loaders, and plugins. Use this project as a walkthrough with to configure new webpacks or clone this repo and change file names and dependencies accordingly._
+_This is an template for a basic project repository with instructions on how to install node webpackages, loaders, and plugins. Use this project as a walkthrough to configure new webpacks or clone this repo and change file names and dependencies accordingly._
 ## File Structure
 ```
 template-repo/
@@ -28,12 +28,13 @@ template-repo/
 ├── src/
 │   ├── // Our source code goes in src/
 │   ├── // The JS, CSS, and HTML files in here change from project to project
+│   ├── css/
+│   ├── js/
 │   ├── index.js // We always need to include the entrypoint JS file called index.js
 │   └── index.html // We always need to include a template HTML file called index.html
-├── package.json  // In this file we need to update the "name" key to the name of the project
 ├── .gitignore
 ├── package-lock.json
-├── package.json
+├── package.json  // In this file we need to update the "name" key to the name of the project
 ├── .eslintrc
 ├── .babelrc
 ├── webpack.config.js
