@@ -28,6 +28,7 @@ template-repo/
 ├── src/
 │   ├── // Our source code goes in src/
 │   ├── // The JS, CSS, and HTML files in here change from project to project
+│   ├── assets/ our images and other assets go here
 │   ├── css/
 │   ├── js/
 │   ├── index.js // We always need to include the entrypoint JS file called index.js
