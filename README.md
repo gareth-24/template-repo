@@ -72,6 +72,8 @@ $ npm install webpack-cli@3.3.12 --save-dev
 $ npm install jest@24.9.0 --save-dev
 $ npm install @babel/core@7.18.6 --save-dev
 $ npm install @babel/plugin-transform-modules-commonjs@7.18.6 --save-dev
+$ npm install file-loader --save-dev
+$ npm install html-loader@1.3.2 --save-dev
 ```
 
 * _List of useful npm script terminal commands:_
