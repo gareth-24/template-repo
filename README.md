@@ -64,6 +64,7 @@ $ npm run start     <!--build the project and serve it with a web server-->
 ```
 * _After completing this setup, we're ready to write code in the src folder._
 * _If you add other dependencies, make sure to update the 'devDependencies' and 'scripts' sections within the 'package.json' file._
+* _If you are using an API with a personal access token, create a '.env' file to define your hidden variable (i.e. API-KEY=...)_
 * _To install other specific package versions, use the code:_
 
 ```
