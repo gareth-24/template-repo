@@ -36,6 +36,7 @@ template-repo/
 ├── .gitignore
 ├── package-lock.json
 ├── package.json  // In this file we need to update the "name" key to the name of the project
+├── .env  // hidden file to store sensitive variables (such as API keys)
 ├── .eslintrc
 ├── .babelrc
 ├── webpack.config.js
@@ -75,6 +76,7 @@ $ npm install @babel/core@7.18.6 --save-dev
 $ npm install @babel/plugin-transform-modules-commonjs@7.18.6 --save-dev
 $ npm install file-loader --save-dev
 $ npm install html-loader@1.3.2 --save-dev
+$ npm install dotenv-webpack@2.0.0 --save-dev
 ```
 
 * _List of useful npm script terminal commands:_
